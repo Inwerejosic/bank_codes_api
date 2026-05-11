@@ -1,0 +1,29 @@
+# Rust build artifacts
+target/
+# Cargo.lock
+
+# Git
+.git/
+.gitignore
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# PDF source (if you don't want it in the image)
+List-of-Nigerian-Banks.pdf
+
+# Python files (if not needed in production)
+*.py
+extractors.py
+
+# Development files
+README.md
+.env

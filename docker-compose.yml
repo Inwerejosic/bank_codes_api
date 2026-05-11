@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  bank-codes-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - RUST_LOG=info
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://0.0.0.0:3000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
