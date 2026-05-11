@@ -4,6 +4,7 @@ A lightweight, high-performance REST API for serving Nigerian bank codes data, b
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Rust](https://img.shields.io/badge/rust-1.75%2B-orange)](https://www.rust-lang.org/)
+[![Docker Hub](https://img.shields.io/badge/Docker-Hub-blue?logo=docker)](https://hub.docker.com/r/inwerejosic/bank-codes-api)
 
 ## Description
 
@@ -138,7 +139,7 @@ bank-codes-api/
 ├── .dockerignore            # Docker build ignore rules
 ├── .gitignore               # Git ignore rules
 ├── data.json                # Bank codes data
-└── README.md               # This file
+└── README.md                # This file
 ```
 
 ### Building
