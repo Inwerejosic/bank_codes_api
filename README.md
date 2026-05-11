@@ -193,7 +193,7 @@ This project is licensed under the MIT License. Please see the [LICENSE](LICENSE
 
 - [Axum](https://github.com/tokio-rs/axum) - Web framework
 - [Serde](https://serde.rs/) - Serialization framework
-- Nigerian banking regulatory data sources
+- [Data Source](https://globusbank.com/Files/List-of-Nigerian-Banks.pdf) 
 
 ## Support
 
